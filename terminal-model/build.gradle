@@ -1,0 +1,10 @@
+dependencies {
+    compile (
+        project(':product-model')
+    )
+    runtime (
+    )
+    testCompile (
+        project(path: ':product-model', configuration: 'tests'),
+    )
+}
